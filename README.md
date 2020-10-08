@@ -2,9 +2,11 @@ Guild Wars 2 Personal Assistant Overlay
 ======
 A stand-alone .NET/WPF informational overlay utility package for Guild Wars 2.
 
-GitHub Pages Site: http://samhurne.github.io/gw2pao/
+### This is a forked repository. For now I've added some new meta events (Icebrood Saga) and improved (german) translations.
 
-### **NOTICE:** Development is now on HOLD. I have moved on from this project for now, although I may return to it in the future.
+#### **NOTICE:** Development by original author is on hold.
+
+Official GitHub Pages Site: http://samhurne.github.io/gw2pao/
 
 # Features
 ### Events Tracker

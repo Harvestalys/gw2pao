@@ -189,7 +189,7 @@ namespace GW2PAO.API.Services
             {
                 // Remove all items with itemID of 0 or less
                 var validIDs = itemIDs.Where(id => id > 0).ToList();
-                
+
                 var itemService = LocalizationUtil.IsSupportedCulture() ? GW2.V2.Items.ForCurrentUICulture() : GW2.V2.Items.ForDefaultCulture();
                 var itemDetails = itemService.FindAll(validIDs);
                 var prices = this.GetItemPrices(validIDs);
