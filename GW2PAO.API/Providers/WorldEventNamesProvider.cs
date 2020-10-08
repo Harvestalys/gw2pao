@@ -167,19 +167,19 @@ namespace GW2PAO.API.Providers
             // German
             List<EventName> german = new List<EventName>()
             {
-                new EventName() { ID = WorldBossID.Megadestroyer, Name = "Megazerstörer" },
-                new EventName() { ID = WorldBossID.Tequatl, Name = "Tequatl" },
-                new EventName() { ID = WorldBossID.KarkaQueen, Name = "Die Karka-Königin" },
-                new EventName() { ID = WorldBossID.EvolvedJungleWurm, Name = "Dreiköpfige Wurm" },
+                new EventName() { ID = WorldBossID.Megadestroyer, Name = "Mega-Zerstörer" },
+                new EventName() { ID = WorldBossID.Tequatl, Name = "Tequatl der Sonnenlose" },
+                new EventName() { ID = WorldBossID.KarkaQueen, Name = "Karka-Königin" },
+                new EventName() { ID = WorldBossID.EvolvedJungleWurm, Name = "Dreifacher Ärger" },
                 new EventName() { ID = WorldBossID.Shatterer, Name = "Zerschmetterer" },
-                new EventName() { ID = WorldBossID.ClawOfJormag, Name = "Die Klaue Jormags" },
-                new EventName() { ID = WorldBossID.ModniirUlgoth, Name = "Ulgoth den Modniir" },
+                new EventName() { ID = WorldBossID.ClawOfJormag, Name = "Klaue von Jormag" },
+                new EventName() { ID = WorldBossID.ModniirUlgoth, Name = "Modniir Ulgoth" },
                 new EventName() { ID = WorldBossID.InquestGolemMarkII, Name = "Inquestur-Golem Typ II" },
                 new EventName() { ID = WorldBossID.TaidhaCovington, Name = "Taidha Covington" },
-                new EventName() { ID = WorldBossID.JungleWurm, Name = "Großen Dschungelwurm" },
+                new EventName() { ID = WorldBossID.JungleWurm, Name = "Dschungelwurm" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Schatten-Behemoth" },
-                new EventName() { ID = WorldBossID.FireElemental, Name = "Feuerelementar" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Schamanenoberhaupt der Svanir" }
+                new EventName() { ID = WorldBossID.FireElemental, Name = "Feuer-Elementar" },
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Svanir-Schamane" }
             };
 
             // Korean

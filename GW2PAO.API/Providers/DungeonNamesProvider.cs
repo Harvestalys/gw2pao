@@ -347,23 +347,23 @@ namespace GW2PAO.API.Providers
                 new DungeonName { ID = DungeonID.AscalonianCatacombs, Name = "Katakomben von Ascalon", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = AscalonianCatacombsPathID.Story, Name = "Geschichte" },
-                    new PathName() { ID = AscalonianCatacombsPathID.P1, Name = "Hodgins" },
-                    new PathName() { ID = AscalonianCatacombsPathID.P2, Name = "Detha" },
-                    new PathName() { ID = AscalonianCatacombsPathID.P3, Name = "Tzark" }
+                    new PathName() { ID = AscalonianCatacombsPathID.P1, Name = "Heulender König (Hodgins)" },
+                    new PathName() { ID = AscalonianCatacombsPathID.P2, Name = "Geisterfresser (Detha)" },
+                    new PathName() { ID = AscalonianCatacombsPathID.P3, Name = "Koloss Rumblus (Tzark)" }
                 }},
                 new DungeonName { ID = DungeonID.CaudecusManor, Name = "Caudecus' Anwesen", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = CaudecusManorPathID.Story, Name = "Geschichte" },
                     new PathName() { ID = CaudecusManorPathID.P1, Name = "Asura" },
-                    new PathName() { ID = CaudecusManorPathID.P2, Name = "Seraph" },
-                    new PathName() { ID = CaudecusManorPathID.P3, Name = "Butler" }
+                    new PathName() { ID = CaudecusManorPathID.P2, Name = "Seraphen" },
+                    new PathName() { ID = CaudecusManorPathID.P3, Name = "Diener" }
                 }},
                 new DungeonName { ID = DungeonID.TwilightArbor, Name = "Zwielichtgarten", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = TwilightArborPathID.Story, Name = "Geschichte" },
-                    new PathName() { ID = TwilightArborPathID.P1, Name = "Vevina (Forward)" },
-                    new PathName() { ID = TwilightArborPathID.P2, Name = "Leurent (Up)" },
-                    new PathName() { ID = TwilightArborPathID.P3, Name = "Aetherpath" }
+                    new PathName() { ID = TwilightArborPathID.P1, Name = "Graf des Blutes (Vevina, vorwärts)" },
+                    new PathName() { ID = TwilightArborPathID.P2, Name = "Spinnen-Gräfin (Laurent, oben)" },
+                    new PathName() { ID = TwilightArborPathID.P3, Name = "Ätherpath" }
                 }},
                 new DungeonName { ID = DungeonID.SorrowsEmbrace, Name = "Umarmung der Betrübnis", PathNames = new List<PathName>()
                 {
@@ -382,32 +382,32 @@ namespace GW2PAO.API.Providers
                 new DungeonName { ID = DungeonID.HonorOfTheWaves, Name = "Zierde der Wogen", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = HonorOfTheWavesPathID.Story, Name = "Geschichte" },
-                    new PathName() { ID = HonorOfTheWavesPathID.P1, Name = "Butcher" },
-                    new PathName() { ID = HonorOfTheWavesPathID.P2, Name = "Plunderer" },
-                    new PathName() { ID = HonorOfTheWavesPathID.P3, Name = "Zealot" }
+                    new PathName() { ID = HonorOfTheWavesPathID.P1, Name = "Schlächter" },
+                    new PathName() { ID = HonorOfTheWavesPathID.P2, Name = "Plünderer" },
+                    new PathName() { ID = HonorOfTheWavesPathID.P3, Name = "Eiferer" }
                 }},
                 new DungeonName { ID = DungeonID.CrucibleOfEternity, Name = "Schmelztiegel der Ewigkeit", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = CrucibleOfEternityPathID.Story, Name = "Geschichte" },
-                    new PathName() { ID = CrucibleOfEternityPathID.P1, Name = "Submarine" },
+                    new PathName() { ID = CrucibleOfEternityPathID.P1, Name = "U-Boot" },
                     new PathName() { ID = CrucibleOfEternityPathID.P2, Name = "Teleporter" },
-                    new PathName() { ID = CrucibleOfEternityPathID.P3, Name = "Front Door" }
+                    new PathName() { ID = CrucibleOfEternityPathID.P3, Name = "Haupteingang" }
                 }},
                 new DungeonName { ID = DungeonID.RuinedCityOfArah, Name = "Die Ruinenstadt Arah", PathNames = new List<PathName>()
                 {
                     new PathName() { ID = RuinedCityOfArahPathID.Story, Name = "Geschichte" },
                     new PathName() { ID = RuinedCityOfArahPathID.P1, Name = "Jotun" },
                     new PathName() { ID = RuinedCityOfArahPathID.P2, Name = "Mursaat" },
-                    new PathName() { ID = RuinedCityOfArahPathID.P3, Name = "Forgotten" },
-                    new PathName() { ID = RuinedCityOfArahPathID.P4, Name = "Seer" }
+                    new PathName() { ID = RuinedCityOfArahPathID.P3, Name = "Vergessene" },
+                    new PathName() { ID = RuinedCityOfArahPathID.P4, Name = "Seher" }
                 }},
                 new DungeonName { ID = DungeonID.FractalsOfTheMists, Name = "Fraktale der Nebel", PathNames = new List<PathName>()
                 {
-                    new PathName() { ID = FractalsOfTheMistsPathID.Tier0, Name = "Tier 0 (1-10)" },
-                    new PathName() { ID = FractalsOfTheMistsPathID.Tier1, Name = "Tier 1 (11-20)" },
-                    new PathName() { ID = FractalsOfTheMistsPathID.Tier2, Name = "Tier 2 (21-30)" },
-                    new PathName() { ID = FractalsOfTheMistsPathID.Tier3, Name = "Tier 3 (31-40)" },
-                    new PathName() { ID = FractalsOfTheMistsPathID.Tier4, Name = "Tier 4 (41-50)" }
+                    new PathName() { ID = FractalsOfTheMistsPathID.Tier0, Name = "Stufe 0" },
+                    new PathName() { ID = FractalsOfTheMistsPathID.Tier1, Name = "Stufe 1 (Eingeweihter)" },
+                    new PathName() { ID = FractalsOfTheMistsPathID.Tier2, Name = "Stufe 2 (Adept)" },
+                    new PathName() { ID = FractalsOfTheMistsPathID.Tier3, Name = "Stufe 3 (Experte)" },
+                    new PathName() { ID = FractalsOfTheMistsPathID.Tier4, Name = "Stufe 4 (Meister)" }
                 }},
             };
 
