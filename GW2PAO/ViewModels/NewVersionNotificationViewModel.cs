@@ -43,11 +43,11 @@ namespace GW2PAO.ViewModels
         }
 
         /// <summary>
-        /// Opens the Download page (http://samhurne.github.io/gw2pao/#download) using the default browser
+        /// Opens the Download page using the default browser
         /// </summary>
         private void OpenDownloadPage()
         {
-            Process.Start("https://github.com/Spiria/gw2pao/releases");
+            Process.Start("https://github.com/Harvestalys/gw2pao/releases");
         }
     }
 }
