@@ -267,6 +267,42 @@ namespace GW2PAO.API.Data
                 }
             });
 
+            met.MetaEvents.Add(new MetaEvent()
+            {
+                Name = "Grothmar Valley",
+                ID = MetaEventID.GrothmarValley,
+                MapID = 1330,
+                StartOffset = new SerializableTimespan(0, 10, 0),
+                Stages = new List<MetaEventStage>()
+                {
+                    new MetaEventStage() { ID = MetaEventStageID.GrothmarValley_Effigy, Name = "Effigy", Duration = new SerializableTimespan(0, 15, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 13, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.GrothmarValley_Shrine, Name = "Doomlore Shrine", Duration = new SerializableTimespan(0, 22, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 5, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.GrothmarValley_OozePits, Name = "Ooze Pits", Duration = new SerializableTimespan(0, 20, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 15, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.GrothmarValley_Concert, Name = "Metal Concert", Duration = new SerializableTimespan(0, 15, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 15, 0) }
+                }
+            });
+
+            met.MetaEvents.Add(new MetaEvent()
+            {
+                Name = "Bjora Marches",
+                ID = MetaEventID.BjoraMarches,
+                MapID = 1343,
+                StartOffset = new SerializableTimespan(0, 0, 0),
+                Stages = new List<MetaEventStage>()
+                {
+                    new MetaEventStage() { ID = MetaEventStageID.BjoraMarches_Construct, Name = "Shards and Construct", Duration = new SerializableTimespan(0, 5, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.BjoraMarches_Champions, Name = "Icebrood Champions", Duration = new SerializableTimespan(0, 15, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 45, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.BjoraMarches_Drakkar, Name = "Drakkar and Spirits of the Wild", Duration = new SerializableTimespan(0, 35, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.EventEnds, Name = "End of Meta", Duration = new SerializableTimespan(0, 5, 0) },
+                    new MetaEventStage() { ID = MetaEventStageID.BjoraMarches_RavenShrines, Name = "Raven Shrines", Duration = new SerializableTimespan(0, 15, 0) }
+                }
+            });
+
             XmlSerializer serializer = new XmlSerializer(typeof(MetaEventsTable));
             TextWriter textWriter = new StreamWriter(MetaEventsTable.Filename);
             serializer.Serialize(textWriter, met);

@@ -23,6 +23,8 @@ namespace GW2PAO.API.Constants
         public static readonly Guid DomainOfIstan = new Guid("6E705FEC-1C60-477B-B3DC-C4FBE35C3B97");
         public static readonly Guid JahaiBluffs = new Guid("99138F68-8016-45FF-B321-902DDCEAD962");
         public static readonly Guid ThunderheadPeaks = new Guid("6C33E8C9-959C-412F-93D8-CDF3EF19B6F2");
+        public static readonly Guid GrothmarValley = new Guid("3122D85E-C860-4BC8-AB48-F395566EB207");
+        public static readonly Guid BjoraMarches = new Guid("3F6209F3-C5CF-41AB-9756-261D172845D1");
     }
 
     public class MetaEventStageID
@@ -50,7 +52,7 @@ namespace GW2PAO.API.Constants
         public static readonly Guid TangledDepths_HelpOutposts = new Guid("8B298EE8-2C3C-491F-AA93-8F1A73D4D8CC");
         public static readonly Guid DragonsStand_MapActive = new Guid("79C4A416-50F1-4E0C-B7E7-DD096FFD6633");
 
-        // LW3 Zones        
+        // LW3 Zones
         public static readonly Guid LakeDoric_Noran = new Guid("B4D908D8-BB02-466A-B3F5-B2D0B970FC79");
         public static readonly Guid LakeDoric_Saidra = new Guid("0097E544-FF42-4097-A0E7-D34D261B8B47");
         public static readonly Guid LakeDoric_Loamhurst = new Guid("59E20379-DDEF-4609-BB19-BDC06AAB472A");
@@ -65,5 +67,15 @@ namespace GW2PAO.API.Constants
         public static readonly Guid JahaiBluffs_DangerousPrey = new Guid("35D30F9D-C9AB-4A2E-A193-22CC76AFE387");
         public static readonly Guid ThunderheadPeaks_Keep = new Guid("9CD21738-2108-4E15-9102-F1F4B10001F5");
         public static readonly Guid ThunderheadPeaks_Oil = new Guid("CBA88373-C024-44A1-9202-6A4387BE949E");
+
+        // The Icebrood Saga Zones
+        public static readonly Guid GrothmarValley_Concert = new Guid("24C72D6A-8C26-4DC8-830A-E82E6E34DABC");
+        public static readonly Guid GrothmarValley_Effigy = new Guid("E5CD64C1-BD62-410D-8E32-AC04F3C5AE02");
+        public static readonly Guid GrothmarValley_Shrine = new Guid("2E1EC369-95C2-41FF-9B4B-2D4EF2A46401");
+        public static readonly Guid GrothmarValley_OozePits = new Guid("FBA0845E-E198-4203-91A5-33041BBED6AA");
+        public static readonly Guid BjoraMarches_Drakkar = new Guid("96C3256A-BF82-454B-A4DF-0D561666AD51");
+        public static readonly Guid BjoraMarches_RavenShrines = new Guid("7153D4BC-C8DB-4257-987D-E5B28955964E");
+        public static readonly Guid BjoraMarches_Construct = new Guid("05A4FD72-A8D1-4A76-8140-396B24BAA387");
+        public static readonly Guid BjoraMarches_Champions = new Guid("858AA7C5-AB89-4054-9775-EBB05D1613F5");
     }
 }
