@@ -58,20 +58,14 @@ namespace GW2PAO.Converters
                     case ObjectiveType.Castle:
                         imagePath += "Castle";
                         break;
-                    case ObjectiveType.TempleofLostPrayers:
-                        imagePath += "TempleofLostPrayers";
+                    case ObjectiveType.Ruin:
+                        imagePath += "Ruin";
                         break;
-                    case ObjectiveType.BattlesHollow:
-                        imagePath += "BattlesHollow";
+                    case ObjectiveType.Mercenary:
+                        imagePath += "Mercenary";
                         break;
-                    case ObjectiveType.BauersEstate:
-                        imagePath += "BauersEstate";
-                        break;
-                    case ObjectiveType.OrchardOverlook:
-                        imagePath += "OrchardOverlook";
-                        break;
-                    case ObjectiveType.CarversAscent:
-                        imagePath += "CarversAscent";
+                    case ObjectiveType.Spawn:
+                        imagePath += "Spawn";
                         break;
                     default:
                         break;

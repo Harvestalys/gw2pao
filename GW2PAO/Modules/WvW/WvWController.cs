@@ -111,12 +111,10 @@ namespace GW2PAO.Modules.WvW
                         return WvWMap.EternalBattlegrounds;
                     case WvWMapIDs.RedDesertBorderlands:
                         return WvWMap.RedDesertBorderlands;
-                    case WvWMapIDs.RedAplineBorderlands:
-                        return WvWMap.RedAplineBorderlands;
                     case WvWMapIDs.GreenAplineBorderlands:
-                        return WvWMap.GreenBorderlands;
+                        return WvWMap.GreenAlpineBorderlands;
                     case WvWMapIDs.BlueAplineBorderlands:
-                        return WvWMap.BlueBorderlands;
+                        return WvWMap.BlueAlpineBorderlands;
                     default:
                         return WvWMap.Unknown;
                 }
@@ -556,11 +554,7 @@ namespace GW2PAO.Modules.WvW
                                 logger.Info("{0} - {1}: {2} -> {3}", objective.Map, objective.Name, objective.PrevWorldOwnerName, objective.WorldOwnerName);
 
                                 // Bloodlust objectives don't get RI, so don't bother with a flip time or RI flag
-                                if (objective.Type != ObjectiveType.TempleofLostPrayers
-                                    && objective.Type != ObjectiveType.BattlesHollow
-                                    && objective.Type != ObjectiveType.BauersEstate
-                                    && objective.Type != ObjectiveType.OrchardOverlook
-                                    && objective.Type != ObjectiveType.CarversAscent)
+                                if (objective.Type != ObjectiveType.Ruin)
                                 {
                                     objective.FlipTime = DateTime.UtcNow;
                                     objective.IsRIActive = true;
@@ -754,14 +748,13 @@ namespace GW2PAO.Modules.WvW
                 {
                     switch (objectiveData.Map)
                     {
-                        case WvWMap.BlueBorderlands:
+                        case WvWMap.BlueAlpineBorderlands:
                             canShow = this.UserData.AreBlueBorderlandsNotificationsEnabled;
                             break;
-                        case WvWMap.GreenBorderlands:
+                        case WvWMap.GreenAlpineBorderlands:
                             canShow = this.UserData.AreGreenBorderlandsNotificationsEnabled;
                             break;
                         case WvWMap.RedDesertBorderlands:
-                        case WvWMap.RedAplineBorderlands:
                             canShow = this.UserData.AreRedBorderlandsNotificationsEnabled;
                             break;
                         case WvWMap.EternalBattlegrounds:
@@ -789,11 +782,7 @@ namespace GW2PAO.Modules.WvW
                         case ObjectiveType.Camp:
                             canShow = this.UserData.AreCampNotificationsEnabled;
                             break;
-                        case ObjectiveType.BattlesHollow:
-                        case ObjectiveType.BauersEstate:
-                        case ObjectiveType.CarversAscent:
-                        case ObjectiveType.OrchardOverlook:
-                        case ObjectiveType.TempleofLostPrayers:
+                        case ObjectiveType.Ruin:
                             canShow = this.UserData.AreBloodlustNotificationsEnabled;
                             break;
                         default:

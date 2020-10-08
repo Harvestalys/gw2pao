@@ -1,0 +1,1106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ActiveIn" xml:space="preserve">
+    <value>남은 시간:</value>
+    <comment>Used to communicate when an in-game event will be active - example: "active in 08:00:01"</comment>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>추가</value>
+    <comment>Add, as in mathematics addition</comment>
+  </data>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>GW2 Personal Assistant Overlay</value>
+  </data>
+  <data name="BreakEven" xml:space="preserve">
+    <value>손익 분기점:</value>
+  </data>
+  <data name="BuyOrder" xml:space="preserve">
+    <value>Buy Order</value>
+    <comment>An order placed to buy an item</comment>
+  </data>
+  <data name="BuyOrderLowerLimit" xml:space="preserve">
+    <value>Buy Order Lower Limit:</value>
+    <comment>Lower limit for a buy order</comment>
+  </data>
+  <data name="BuyOrderUpperLimit" xml:space="preserve">
+    <value>Buy Order Upper Limit:</value>
+    <comment>Upper/higher limit for a buy order</comment>
+  </data>
+  <data name="BuyPrice" xml:space="preserve">
+    <value>구매가</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>취소</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>닫기</value>
+    <comment>Used for both buttons and menu items</comment>
+  </data>
+  <data name="CopyChatCode" xml:space="preserve">
+    <value>Copy Chat Code</value>
+    <comment>Used to copy &amp; paste a special chat code into the in-game chat</comment>
+  </data>
+  <data name="CopyName" xml:space="preserve">
+    <value>Copy Name</value>
+    <comment>Copy the Name of something</comment>
+  </data>
+  <data name="CopyWaypointCode" xml:space="preserve">
+    <value>Copy Waypoint Code</value>
+    <comment>Used to copy &amp; paste text into the in-game chat</comment>
+  </data>
+  <data name="Cost" xml:space="preserve">
+    <value>Cost:</value>
+  </data>
+  <data name="CurrentHighestBuyOrder" xml:space="preserve">
+    <value>현재 가장 높은 가격(Buy Order):</value>
+    <comment>The currently highest buy order</comment>
+  </data>
+  <data name="CurrentLowestSellListing" xml:space="preserve">
+    <value>현재 가장 낮은 가격(Sell Listing):</value>
+    <comment>The currently lowest sell listing</comment>
+  </data>
+  <data name="DesignArtBy" xml:space="preserve">
+    <value>Initial design/art input by:</value>
+    <comment>Shown in About window</comment>
+  </data>
+  <data name="DevelopmentBy" xml:space="preserve">
+    <value>Development by:</value>
+    <comment>Shown in About window</comment>
+  </data>
+  <data name="Done" xml:space="preserve">
+    <value>완료!</value>
+  </data>
+  <data name="DontShowAgain" xml:space="preserve">
+    <value>다시 보지 않기</value>
+    <comment>Shown in New Version Available popup</comment>
+  </data>
+  <data name="Dungeons" xml:space="preserve">
+    <value>Dungeons</value>
+  </data>
+  <data name="EnableLogging" xml:space="preserve">
+    <value>Enable Logging</value>
+    <comment>Shown in About window</comment>
+  </data>
+  <data name="EventNotifications" xml:space="preserve">
+    <value>알림 사용</value>
+  </data>
+  <data name="GetStarted" xml:space="preserve">
+    <value>시작하려면 이곳을 클릭하세요</value>
+    <comment>Shown in intial pop-up. Full text is "GW2 Personal Assistant Overlay is now running. Click here to Get Started"</comment>
+  </data>
+  <data name="GoToDownloadPage" xml:space="preserve">
+    <value>다운로드 페이지로 이동하려면 클릭하세요</value>
+    <comment>Shown in New Version Available popup</comment>
+  </data>
+  <data name="Help" xml:space="preserve">
+    <value>도움말</value>
+    <comment>Shown in About window</comment>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>숨기기</value>
+    <comment>Used in several places, hides something from view</comment>
+  </data>
+  <data name="IP" xml:space="preserve">
+    <value>IP: </value>
+    <comment>IP Address</comment>
+  </data>
+  <data name="Item" xml:space="preserve">
+    <value>아이템</value>
+    <comment>Item, as in an in-game item</comment>
+  </data>
+  <data name="ItemName" xml:space="preserve">
+    <value>아이템 이름</value>
+  </data>
+  <data name="LastActiveXAgo" xml:space="preserve">
+    <value>마지막 활성: {0}</value>
+    <comment>Describes how long ago something was active (time) - example: "Last Active 01:23:45 ago"</comment>
+  </data>
+  <data name="ListingFee" xml:space="preserve">
+    <value>Listing Fee:</value>
+  </data>
+  <data name="LocatedInX" xml:space="preserve">
+    <value>{0}에 있음</value>
+    <comment>Describes location of something - example: "Located in Lion's Arch"</comment>
+  </data>
+  <data name="Lower" xml:space="preserve">
+    <value>낮아짐</value>
+  </data>
+  <data name="NewVersionAvailable" xml:space="preserve">
+    <value>새 버전이 있습니다!</value>
+    <comment>Shown in New Version Available popup</comment>
+  </data>
+  <data name="NowRunning" xml:space="preserve">
+    <value>가 실행 중입니다.</value>
+    <comment>Shown in intial pop-up. Full text is "GW2 Personal Assistant Overlay is now running. Click here to Get Started"</comment>
+  </data>
+  <data name="OpenWikiPage" xml:space="preserve">
+    <value>위키 페이지로 이동</value>
+    <comment>Opens the web browser to the GW2 Wiki</comment>
+  </data>
+  <data name="PriceNotifications" xml:space="preserve">
+    <value>Price Notifications</value>
+  </data>
+  <data name="Profit" xml:space="preserve">
+    <value>손익</value>
+  </data>
+  <data name="Quantity" xml:space="preserve">
+    <value>수량</value>
+  </data>
+  <data name="RebuildingNamesDatabase" xml:space="preserve">
+    <value>아이템 데이터베이스 재생성 중...</value>
+    <comment>Reconstruction of a database containing item names</comment>
+  </data>
+  <data name="RedisplayNotificationsIntervalMinutes" xml:space="preserve">
+    <value>다시 알림을 표시할 시간 (분):</value>
+  </data>
+  <data name="Reset" xml:space="preserve">
+    <value>초기화</value>
+    <comment>Start over, shown in a button</comment>
+  </data>
+  <data name="ResetCompletedPaths" xml:space="preserve">
+    <value>완료한 Path 초기화</value>
+  </data>
+  <data name="ResetHiddenDungeons" xml:space="preserve">
+    <value>숨긴 던전 초기화</value>
+    <comment>Menu item for the Dungeons Tracker</comment>
+  </data>
+  <data name="ResetHiddenEvents" xml:space="preserve">
+    <value>숨긴 이벤트 초기화</value>
+    <comment>Forces events hidden from view to be shown again</comment>
+  </data>
+  <data name="Revenue" xml:space="preserve">
+    <value>Revenue:</value>
+  </data>
+  <data name="Reward" xml:space="preserve">
+    <value>Reward:</value>
+    <comment>Dungeons path reward</comment>
+  </data>
+  <data name="SaleFee" xml:space="preserve">
+    <value>Sale Fee:</value>
+  </data>
+  <data name="SellListing" xml:space="preserve">
+    <value>Sell Listing</value>
+    <comment>A sale listing, where a player is listing an item to sell</comment>
+  </data>
+  <data name="SellListingLowerLimit" xml:space="preserve">
+    <value>Sell Listing Lower Limit:</value>
+    <comment>Lower limit for a sell listing</comment>
+  </data>
+  <data name="SellListingUpperLimit" xml:space="preserve">
+    <value>Sell Listing Upper Limit:</value>
+    <comment>Upper/higher limit for a sell listing</comment>
+  </data>
+  <data name="SellPrice" xml:space="preserve">
+    <value>판매가</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Send</value>
+    <comment>Send, as in send a letter or send a message</comment>
+  </data>
+  <data name="Server" xml:space="preserve">
+    <value>Server: </value>
+    <comment>Teamspeak server name</comment>
+  </data>
+  <data name="ShowChannelBox" xml:space="preserve">
+    <value>Show Channel Box</value>
+    <comment>Show teamspeak channel information box</comment>
+  </data>
+  <data name="ShowChatEntryBox" xml:space="preserve">
+    <value>Show Chat Entry Box</value>
+    <comment>Show text-chat entry box</comment>
+  </data>
+  <data name="ShowInactiveEvents" xml:space="preserve">
+    <value>Inactive Event 표시</value>
+    <comment>Show world events even if they are inactive</comment>
+  </data>
+  <data name="Teamspeak" xml:space="preserve">
+    <value>Teamspeak</value>
+  </data>
+  <data name="ThirdPartyLibraries" xml:space="preserve">
+    <value>This application uses</value>
+    <comment>Shown in About window</comment>
+  </data>
+  <data name="TPCalculator" xml:space="preserve">
+    <value>TP Calculator</value>
+    <comment>Trading Post Calculator</comment>
+  </data>
+  <data name="Upper" xml:space="preserve">
+    <value>높아짐</value>
+  </data>
+  <data name="Version" xml:space="preserve">
+    <value>버전:</value>
+    <comment>Shown in New Version Available popup</comment>
+  </data>
+  <data name="WorldEvents" xml:space="preserve">
+    <value>World Events</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="World_Completion2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Images\World_Completion2.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>정보</value>
+  </data>
+  <data name="Adjusted" xml:space="preserve">
+    <value>조정된 시간표</value>
+  </data>
+  <data name="AutomaticUnlock" xml:space="preserve">
+    <value>자동으로 완료 표시</value>
+  </data>
+  <data name="BloodlustObjectives" xml:space="preserve">
+    <value>Bloodlust Objectives</value>
+  </data>
+  <data name="BlueBorderlands" xml:space="preserve">
+    <value>Blue Borderlands</value>
+  </data>
+  <data name="BlueObjectives" xml:space="preserve">
+    <value>Blue Objectives</value>
+  </data>
+  <data name="BuyOrderPriceNotifications" xml:space="preserve">
+    <value>Buy Order Price Notifications</value>
+  </data>
+  <data name="Camps" xml:space="preserve">
+    <value>Camps</value>
+  </data>
+  <data name="CardinalDirections" xml:space="preserve">
+    <value>방위</value>
+  </data>
+  <data name="Castles" xml:space="preserve">
+    <value>Castles</value>
+  </data>
+  <data name="CheckForUpdatesAtStartup" xml:space="preserve">
+    <value>시작 시 업데이트 확인</value>
+  </data>
+  <data name="ClaimedBy" xml:space="preserve">
+    <value>Claimed By:</value>
+  </data>
+  <data name="Commerce" xml:space="preserve">
+    <value>Commerce</value>
+  </data>
+  <data name="Configure" xml:space="preserve">
+    <value>Configure</value>
+  </data>
+  <data name="CopyEnemyHeadedTowards" xml:space="preserve">
+    <value>Copy Enemy Headed Towards Text</value>
+    <comment>Copy text meant to notify others than enemy players are headed towards an objective</comment>
+  </data>
+  <data name="CopyPlayerHeadedTowards" xml:space="preserve">
+    <value>Copy Player Headed Towards Text</value>
+    <comment>Copy text meant to notify others that players are headed towards an objective</comment>
+  </data>
+  <data name="CopyRITimer" xml:space="preserve">
+    <value>Copy RI Timer Text</value>
+    <comment>Copy text including the Righteous Indignation timer value of an objective</comment>
+  </data>
+  <data name="CopyUnderAttack" xml:space="preserve">
+    <value>Copy Under Attack Text</value>
+    <comment>Copy text meant to notify others that an objective is under attack</comment>
+  </data>
+  <data name="CurrentZone" xml:space="preserve">
+    <value>현재 지역</value>
+  </data>
+  <data name="DisableAll" xml:space="preserve">
+    <value>Disable All</value>
+  </data>
+  <data name="Distance" xml:space="preserve">
+    <value>거리</value>
+  </data>
+  <data name="DistanceUnits" xml:space="preserve">
+    <value>거리 단위</value>
+    <comment>Distance units of measure</comment>
+  </data>
+  <data name="DungeonsTracker" xml:space="preserve">
+    <value>Dungeons Tracker</value>
+  </data>
+  <data name="EnableAll" xml:space="preserve">
+    <value>Enable All</value>
+  </data>
+  <data name="EternalBattlegrounds" xml:space="preserve">
+    <value>Eternal Battlegrounds</value>
+  </data>
+  <data name="Events" xml:space="preserve">
+    <value>Events</value>
+  </data>
+  <data name="EventTimeTable" xml:space="preserve">
+    <value>이벤트 시간표</value>
+    <comment>Events time table, like a time table for a bus or train</comment>
+  </data>
+  <data name="Exit" xml:space="preserve">
+    <value>종료</value>
+  </data>
+  <data name="Feet" xml:space="preserve">
+    <value>피트</value>
+    <comment>Feet as in "ft"</comment>
+  </data>
+  <data name="Global" xml:space="preserve">
+    <value>전체</value>
+  </data>
+  <data name="GreenBorderlands" xml:space="preserve">
+    <value>Green Borderlands</value>
+  </data>
+  <data name="GreenObjectives" xml:space="preserve">
+    <value>Green Objectives</value>
+  </data>
+  <data name="HeartQuests" xml:space="preserve">
+    <value>Heart Quests</value>
+  </data>
+  <data name="Horizontal" xml:space="preserve">
+    <value>수평</value>
+  </data>
+  <data name="Keeps" xml:space="preserve">
+    <value>Keeps</value>
+    <comment>Keeps, as in castle keep</comment>
+  </data>
+  <data name="Maps" xml:space="preserve">
+    <value>Maps</value>
+  </data>
+  <data name="Meters" xml:space="preserve">
+    <value>미터</value>
+    <comment>Meters, as in "m"</comment>
+  </data>
+  <data name="Names" xml:space="preserve">
+    <value>이름</value>
+  </data>
+  <data name="NeutralObjectives" xml:space="preserve">
+    <value>Neutral Objectives</value>
+  </data>
+  <data name="NonInteractiveWindows" xml:space="preserve">
+    <value>비활성 창</value>
+    <comment>Non-interactive windows, or windows that do not receive any mouse-clicks</comment>
+  </data>
+  <data name="NotRunningAsAdmin" xml:space="preserve">
+    <value>Some features cannot be started because GW2 is running as administrator.</value>
+  </data>
+  <data name="OpenEventsTracker" xml:space="preserve">
+    <value>Events Tracker 열기</value>
+    <comment>Performs an action - Opens the events tracker</comment>
+  </data>
+  <data name="OpenWvWTracker" xml:space="preserve">
+    <value>WvW Tracker 열기</value>
+  </data>
+  <data name="Orientation" xml:space="preserve">
+    <value>방향</value>
+    <comment>Orientation, such as "Vertical" or "Horizontal"</comment>
+  </data>
+  <data name="OverlayMenuIcon" xml:space="preserve">
+    <value>오버레이 메뉴 아이콘</value>
+  </data>
+  <data name="OverrideDisplayedMap" xml:space="preserve">
+    <value>다른 맵 표시</value>
+  </data>
+  <data name="OwnedBy" xml:space="preserve">
+    <value>Owned By: {0}</value>
+  </data>
+  <data name="Points" xml:space="preserve">
+    <value>Points: {0}</value>
+    <comment>As in score</comment>
+  </data>
+  <data name="POIs" xml:space="preserve">
+    <value>POIs</value>
+    <comment>as in Points of Interest</comment>
+  </data>
+  <data name="RebuildItemNamesDatabase" xml:space="preserve">
+    <value>아이템 데이터베이스 재생성</value>
+    <comment>Rebuilds the item names database</comment>
+  </data>
+  <data name="RedBorderlands" xml:space="preserve">
+    <value>Red Borderlands</value>
+  </data>
+  <data name="RedObjectives" xml:space="preserve">
+    <value>Red Objectives</value>
+  </data>
+  <data name="ResetHiddenObjectives" xml:space="preserve">
+    <value>숨긴 목표물 초기화</value>
+  </data>
+  <data name="ResetHiddenPoints" xml:space="preserve">
+    <value>숨긴 위치 초기화</value>
+    <comment>Reset hidden points, as in locations on the map</comment>
+  </data>
+  <data name="ResetUnlocks" xml:space="preserve">
+    <value>완료 상태 초기화</value>
+    <comment>Reset unlocked stuff</comment>
+  </data>
+  <data name="SellListingPriceNotifications" xml:space="preserve">
+    <value>Sell Listing Price Notifications</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="ShortNames" xml:space="preserve">
+    <value>짧은 이름</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>표시</value>
+  </data>
+  <data name="ShowAll" xml:space="preserve">
+    <value>모두 표시</value>
+  </data>
+  <data name="ShowDistances" xml:space="preserve">
+    <value>거리 표시</value>
+  </data>
+  <data name="ShowNone" xml:space="preserve">
+    <value>모두 숨기기</value>
+  </data>
+  <data name="ShowNotificationBorders" xml:space="preserve">
+    <value>알림 테두리 표시</value>
+    <comment>Show window borders for notification windows</comment>
+  </data>
+  <data name="ShowUnlockedZonePoints" xml:space="preserve">
+    <value>완료 처리된 위치 표시</value>
+    <comment>Show unlocked points, as in locations on the map</comment>
+  </data>
+  <data name="SkillChallenges" xml:space="preserve">
+    <value>Skill Challenges</value>
+  </data>
+  <data name="Standard" xml:space="preserve">
+    <value>기본 시간표</value>
+  </data>
+  <data name="StickyWindows" xml:space="preserve">
+    <value>Sticky Windows</value>
+    <comment>Windows that stick to the screen-edge and to eachother</comment>
+  </data>
+  <data name="TakenBy" xml:space="preserve">
+    <value>By: {0}</value>
+    <comment>Taken by X, such as "By: Jade Quarry"</comment>
+  </data>
+  <data name="TakenFrom" xml:space="preserve">
+    <value>From: {0}</value>
+    <comment>Taken from X, such as "From: Jade Quarry"</comment>
+  </data>
+  <data name="TeamspeakOverlay" xml:space="preserve">
+    <value>Teamspeak Overlay</value>
+  </data>
+  <data name="TimeDistances" xml:space="preserve">
+    <value>이동 시간</value>
+    <comment>Time-distances, which are estimated time to travel based on distanced</comment>
+  </data>
+  <data name="Towers" xml:space="preserve">
+    <value>Towers</value>
+    <comment>Towers, as in guard towers</comment>
+  </data>
+  <data name="UsePlayersMap" xml:space="preserve">
+    <value>플레이어의 위치 사용</value>
+  </data>
+  <data name="Vertical" xml:space="preserve">
+    <value>수직</value>
+  </data>
+  <data name="Vistas" xml:space="preserve">
+    <value>Vistas</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Warning</value>
+  </data>
+  <data name="Waypoints" xml:space="preserve">
+    <value>Waypoints</value>
+  </data>
+  <data name="WebBrowser" xml:space="preserve">
+    <value>Web Browser</value>
+  </data>
+  <data name="WhenHomeWorldLosesObjective" xml:space="preserve">
+    <value>아군이 목표물을 빼앗긴 경우</value>
+    <comment>As in when the home world loses an objective to another world</comment>
+  </data>
+  <data name="WhenHomeWorldTakesObjective" xml:space="preserve">
+    <value>아군이 목표물을 점령한 경우</value>
+    <comment>As in when the home world takes an objective from another world</comment>
+  </data>
+  <data name="WhenOtherWorldTakesOtherWorldsObjective" xml:space="preserve">
+    <value>적군이 다른 적군의 목표물을 점령한 경우</value>
+    <comment>As in when a world other than the home world takes an objective from another world that is not the home world</comment>
+  </data>
+  <data name="WorldSelection" xml:space="preserve">
+    <value>World 선택</value>
+  </data>
+  <data name="WorldvsWorld" xml:space="preserve">
+    <value>World vs World</value>
+  </data>
+  <data name="WvWNotifications" xml:space="preserve">
+    <value>WvW 알림 사용</value>
+    <comment>World vs World Notifications</comment>
+  </data>
+  <data name="ZoneCompletionAssistant" xml:space="preserve">
+    <value>Zone Completion Assistant</value>
+  </data>
+  <data name="StartTeamspeak" xml:space="preserve">
+    <value>Please start Teamspeak</value>
+    <comment>Instructing the user to start Teamspeak (in a nice sort of way)</comment>
+  </data>
+  <data name="PriceTracker" xml:space="preserve">
+    <value>Price Tracker</value>
+    <comment>Price Tracker title (like Dungeons Tracker, but for tracking item prices)</comment>
+  </data>
+  <data name="TranslationsBy" xml:space="preserve">
+    <value>번역:</value>
+    <comment>Followed by a list of names (the translators)</comment>
+  </data>
+  <data name="EventNotificationSettings" xml:space="preserve">
+    <value>알림 설정</value>
+    <comment>Settings for Event Notifications</comment>
+  </data>
+  <data name="EventsTracker" xml:space="preserve">
+    <value>Events Tracker</value>
+    <comment>Name of the Events Tracker</comment>
+  </data>
+  <data name="EventNotificationConfigTooltip" xml:space="preserve">
+    <value>미리 알림을 표시할 시간</value>
+    <comment>Instructions shown describing what the entry box for notifications means</comment>
+  </data>
+  <data name="Apply" xml:space="preserve">
+    <value>확인</value>
+    <comment>Set a setting or action</comment>
+  </data>
+  <data name="LanguageSetting" xml:space="preserve">
+    <value>언어:</value>
+    <comment>Shown in the general settings, next to the dropdown that allows selection of the current language.</comment>
+  </data>
+  <data name="Location" xml:space="preserve">
+    <value>위치</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>이름</value>
+    <comment>Name (singular)</comment>
+  </data>
+  <data name="ObjectiveType" xml:space="preserve">
+    <value>목표물 종류</value>
+    <comment>World vs World Objective Type</comment>
+  </data>
+  <data name="Owner" xml:space="preserve">
+    <value>소유자</value>
+    <comment>Owner, as in World Owner</comment>
+  </data>
+  <data name="SortBy" xml:space="preserve">
+    <value>정렬</value>
+    <comment>Sort a list by a specific property</comment>
+  </data>
+  <data name="BestTimes" xml:space="preserve">
+    <value>최고 기록</value>
+    <comment>Best dungeon path completion times</comment>
+  </data>
+  <data name="ResetAll" xml:space="preserve">
+    <value>모두 초기화</value>
+  </data>
+  <data name="AutoComplete" xml:space="preserve">
+    <value>자동으로 완료 표시하기</value>
+  </data>
+  <data name="AutoHideBorder" xml:space="preserve">
+    <value>오버레이 창의 테두리 자동 숨기기</value>
+  </data>
+  <data name="AutoStart" xml:space="preserve">
+    <value>자동 시작</value>
+    <comment>Automatically start</comment>
+  </data>
+  <data name="AutoStop" xml:space="preserve">
+    <value>자동 정지</value>
+    <comment>Automatically stop</comment>
+  </data>
+  <data name="DungeonTimer" xml:space="preserve">
+    <value>Dungeon Timer</value>
+  </data>
+  <data name="InvalidHotkey" xml:space="preserve">
+    <value>잘못된 입력입니다. 다시 시도하세요.</value>
+    <comment>Shown if the user tries to set a hotkey with an invalid key or key combo</comment>
+  </data>
+  <data name="Later" xml:space="preserve">
+    <value>나중에</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>확인</value>
+  </data>
+  <data name="RestartApplicationInstruction" xml:space="preserve">
+    <value>설정을 적용하기 위해서는 재시작이 필요합니다.</value>
+    <comment>Message shown when the user changes a setting that requires an application restart (like changing the language)</comment>
+  </data>
+  <data name="ToggleAllWindows" xml:space="preserve">
+    <value>모든 오버레이 창 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleDungeonsTracker" xml:space="preserve">
+    <value>Dungeons Tracker 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleDungeonTimer" xml:space="preserve">
+    <value>Dungeon Timer 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleEventsTracker" xml:space="preserve">
+    <value>Events Tracker 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleNonInteractiveWindow" xml:space="preserve">
+    <value>비활성 창 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleNotificationBorders" xml:space="preserve">
+    <value>알림 창 테두리 보이기/숨기기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleOverlayMenuIcon" xml:space="preserve">
+    <value>오버레이 메뉴 아이콘 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="TogglePriceTracker" xml:space="preserve">
+    <value>Price Tracker 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleTeamspeakOverlay" xml:space="preserve">
+    <value>Teamspeak Overlay 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleWebBrowser" xml:space="preserve">
+    <value>Web Browser 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleWvWTracker" xml:space="preserve">
+    <value>WvW Tracker 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleZoneCompletionAssistant" xml:space="preserve">
+    <value>Zone Completion Assistant 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="General" xml:space="preserve">
+    <value>General</value>
+    <comment>General Settings Header</comment>
+  </data>
+  <data name="Hotkeys" xml:space="preserve">
+    <value>Hotkeys</value>
+  </data>
+  <data name="TrackedItems" xml:space="preserve">
+    <value>추적 중인 아이템</value>
+  </data>
+  <data name="AutoFadeBorders" xml:space="preserve">
+    <value>오버레이 창의 테두리를 자동으로 흐리게 하기</value>
+  </data>
+  <data name="ToggleAutoFadeBorders" xml:space="preserve">
+    <value>오버레이 창의 테두리 숨기기</value>
+  </data>
+  <data name="Unknown" xml:space="preserve">
+    <value>알 수 없음</value>
+    <comment>WvW Header when player isn't on a WvW map</comment>
+  </data>
+  <data name="AutoOpenCloseWvW" xml:space="preserve">
+    <value>WvW 입장이나 퇴장시 자동으로 트래커 켜고 끄기</value>
+  </data>
+  <data name="AddNewTask" xml:space="preserve">
+    <value>새 Task 추가</value>
+  </data>
+  <data name="CanComplete" xml:space="preserve">
+    <value>완료 가능</value>
+  </data>
+  <data name="CompletionOptions" xml:space="preserve">
+    <value>설정</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>설명</value>
+  </data>
+  <data name="Export" xml:space="preserve">
+    <value>내보내기...</value>
+  </data>
+  <data name="Import" xml:space="preserve">
+    <value>가져오기...</value>
+  </data>
+  <data name="IncludeLocation" xml:space="preserve">
+    <value>위치 정보 포함</value>
+  </data>
+  <data name="LocationOptions" xml:space="preserve">
+    <value>위치 설정</value>
+  </data>
+  <data name="ResetDaily" xml:space="preserve">
+    <value>매일 초기화</value>
+  </data>
+  <data name="TaskTracker" xml:space="preserve">
+    <value>Tasks Tracker</value>
+  </data>
+  <data name="WaypointCode" xml:space="preserve">
+    <value>Waypoint Code</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="Edit" xml:space="preserve">
+    <value>편집</value>
+  </data>
+  <data name="DeleteAll" xml:space="preserve">
+    <value>모두 삭제</value>
+  </data>
+  <data name="Load" xml:space="preserve">
+    <value>불러오기...</value>
+  </data>
+  <data name="AutoHideOverlayIconWhenGW2NotRunning" xml:space="preserve">
+    <value>게임이 실행 중이지 않을 경우 오버레이 메뉴 아이콘 숨기기</value>
+  </data>
+  <data name="ToggleTasksTracker" xml:space="preserve">
+    <value>Tasks Tracker 켜기/끄기</value>
+  </data>
+  <data name="CustomIcon" xml:space="preserve">
+    <value>사용자 지정 아이콘</value>
+  </data>
+  <data name="ItemIcon" xml:space="preserve">
+    <value>아이템 아이콘</value>
+  </data>
+  <data name="NotificationsDuration" xml:space="preserve">
+    <value>알림 표시 시간 (초)</value>
+    <comment>Amount of time that notifications stay open</comment>
+  </data>
+  <data name="ShowCompletedEvents" xml:space="preserve">
+    <value>완료한 Event 표시</value>
+  </data>
+  <data name="NoResultsFound" xml:space="preserve">
+    <value>결과 없음</value>
+  </data>
+  <data name="CostOfGems" xml:space="preserve">
+    <value>Cost of 100 Gems</value>
+  </data>
+  <data name="GemsToGoldExchange" xml:space="preserve">
+    <value>Gems To Gold Exchange</value>
+  </data>
+  <data name="ShowGoldToGemsExchange" xml:space="preserve">
+    <value>Show Gold-to-Gems Exchange</value>
+  </data>
+  <data name="ValueOfGems" xml:space="preserve">
+    <value>Value of 100 Gems</value>
+  </data>
+  <data name="AutoCompleteTasks" xml:space="preserve">
+    <value>위치에 따라 자동으로 완료 표시하기</value>
+  </data>
+  <data name="ShowCompletedTasks" xml:space="preserve">
+    <value>완료한 Task 표시</value>
+  </data>
+  <data name="ShowTasksNotOnMap" xml:space="preserve">
+    <value>현재 맵에 없는 Task도 표시</value>
+  </data>
+  <data name="WvWEnemyHeadedAltClipboardText" xml:space="preserve">
+    <value>{0} 쪽으로 적 이동 중</value>
+    <comment>Example: Enemy headed to Garrison</comment>
+  </data>
+  <data name="WvWEnemyHeadedClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2})쪽으로 적 이동 중</value>
+    <comment>Example: Enemy headed to Garrison (C Keep)</comment>
+  </data>
+  <data name="WvWGeneralClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2}) - 점령: {3} - RI: {4}</value>
+    <comment>Example: Garrison (C Keep) - Owned by Sea of Sorrows - RI: 3:14</comment>
+  </data>
+  <data name="WvWGeneralNoRIClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2}) - 점령: {3} - RI 꺼짐</value>
+    <comment>Example: Garrison (C Keep) - Owned by Sea of Sorrows - RI is NOT active</comment>
+  </data>
+  <data name="WvWNoRIClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2}) - RI 꺼짐</value>
+    <comment>Example: Garrison (C Keep) - RI is NOT active</comment>
+  </data>
+  <data name="WvWPlayerHeadedAltClipboardText" xml:space="preserve">
+    <value>{0} 쪽으로 이동 중 - 예상 거리: {1}{2}</value>
+    <comment>Example: I'm headed to Garrison - Estimated Distance: 314m</comment>
+  </data>
+  <data name="WvWPlayerHeadedClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2}) 쪽으로 이동 중 - 예상 거리: {3}{4}</value>
+    <comment>Example: I'm headed to Garrison (C Keep) - Estimated Distance: 314m</comment>
+  </data>
+  <data name="WvWRIClipboardText" xml:space="preserve">
+    <value>{0} ({1} {2}) - RI: {3}</value>
+    <comment>Example: Garrison (C Keep) - RI: 3:14</comment>
+  </data>
+  <data name="WvWUnderAttackClipboardText" xml:space="preserve">
+    <value>{0} - 공격받는 중!! ({1} {2})</value>
+    <comment>Example: Garrison is under attack!! (C Keep)</comment>
+  </data>
+  <data name="File" xml:space="preserve">
+    <value>파일</value>
+  </data>
+  <data name="OpenGuide" xml:space="preserve">
+    <value>가이드 열기</value>
+  </data>
+  <data name="ShowEnterExitChannelNotifications" xml:space="preserve">
+    <value>Show Enter/Exit Channel Notifications</value>
+    <comment>For the Teamspeak Overlay</comment>
+  </data>
+  <data name="SetActivePath" xml:space="preserve">
+    <value>진행중인 Path로 설정</value>
+    <comment>Used to override the currently detected dungeon path</comment>
+  </data>
+  <data name="DungeonPaths" xml:space="preserve">
+    <value>Paths</value>
+  </data>
+  <data name="BestTime" xml:space="preserve">
+    <value>최고 기록</value>
+  </data>
+  <data name="CompletionTime" xml:space="preserve">
+    <value>완료 시간</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="DungeonCompletion" xml:space="preserve">
+    <value>Dungeon Completion</value>
+  </data>
+  <data name="Remove" xml:space="preserve">
+    <value>삭제</value>
+  </data>
+  <data name="AverageTime" xml:space="preserve">
+    <value>평균 기록</value>
+  </data>
+  <data name="AutoHideAllWindowsGW2Closed" xml:space="preserve">
+    <value>게임이 실행 중이지 않을 경우 모든 오버레이 창 숨기기</value>
+  </data>
+  <data name="AutoHideAllWindowsGW2LoseFocus" xml:space="preserve">
+    <value>다른 창으로 전환 시 모든 오버레이 창 숨기기</value>
+  </data>
+  <data name="AutoHideOverlayIconGW2LoseFocus" xml:space="preserve">
+    <value>다른 창으로 전환 시 오버레이 메뉴 아이콘 자동 숨기기</value>
+  </data>
+  <data name="ShowWaypointCopyButtons" xml:space="preserve">
+    <value>Waypoint-Code 복사 버튼 보기</value>
+  </data>
+  <data name="HeroChallenges" xml:space="preserve">
+    <value>Hero Challenges</value>
+  </data>
+  <data name="BasedOnBuyOrder" xml:space="preserve">
+    <value>Buy Order 가격 기준</value>
+  </data>
+  <data name="BasedOnSellListing" xml:space="preserve">
+    <value>Sell Listing 가격 기준</value>
+  </data>
+  <data name="EctoSalvageHelper" xml:space="preserve">
+    <value>Ectoplasm Salvage Helper</value>
+  </data>
+  <data name="CompletedPerChar" xml:space="preserve">
+    <value>캐릭터별</value>
+  </data>
+  <data name="ROI" xml:space="preserve">
+    <value>ROI:</value>
+    <comment>Return on Investment</comment>
+  </data>
+  <data name="MetaEventTimers" xml:space="preserve">
+    <value>Meta Event Timers</value>
+  </data>
+  <data name="OpenMetaEventTimers" xml:space="preserve">
+    <value>Meta Event Timer 열기</value>
+  </data>
+  <data name="OpenWorldBossTimers" xml:space="preserve">
+    <value>World Boss Timer 열기</value>
+  </data>
+  <data name="WorldBossTimers" xml:space="preserve">
+    <value>World Boss Timers</value>
+  </data>
+  <data name="ActiveFor" xml:space="preserve">
+    <value>경과 시간:</value>
+    <comment>Example: "active for 00:10:07"</comment>
+  </data>
+  <data name="In" xml:space="preserve">
+    <value>까지</value>
+  </data>
+  <data name="CenterOnChar" xml:space="preserve">
+    <value>캐릭터를 중앙에 두기</value>
+  </data>
+  <data name="EntireContinent" xml:space="preserve">
+    <value>전체</value>
+  </data>
+  <data name="Length" xml:space="preserve">
+    <value>Length</value>
+  </data>
+  <data name="Map" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="MapOverlay" xml:space="preserve">
+    <value>Map Overlay</value>
+  </data>
+  <data name="Move" xml:space="preserve">
+    <value>이동</value>
+  </data>
+  <data name="ShowCharPointer" xml:space="preserve">
+    <value>Show Character Pointer</value>
+  </data>
+  <data name="ShowHeartQuests" xml:space="preserve">
+    <value>Heart Quest 표시</value>
+  </data>
+  <data name="ShowHeroPoints" xml:space="preserve">
+    <value>Hero Point 표시</value>
+  </data>
+  <data name="ShowPointsOfInterest" xml:space="preserve">
+    <value>Points of Interest 표시</value>
+  </data>
+  <data name="ShowTrail" xml:space="preserve">
+    <value>경로 표시</value>
+  </data>
+  <data name="ShowVistas" xml:space="preserve">
+    <value>Vista 표시</value>
+  </data>
+  <data name="ShowWaypoints" xml:space="preserve">
+    <value>Waypoint 표시</value>
+  </data>
+  <data name="Trail" xml:space="preserve">
+    <value>이동 경로</value>
+  </data>
+  <data name="ShowPlayerMarkers" xml:space="preserve">
+    <value>플레이어 마커 표시</value>
+  </data>
+  <data name="PlayerMarkers" xml:space="preserve">
+    <value>플레이어 마커</value>
+  </data>
+  <data name="ToggleMap" xml:space="preserve">
+    <value>Map Overlay 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleMetaEventTimers" xml:space="preserve">
+    <value>Meta Event Timer 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="ToggleWorldBossTimers" xml:space="preserve">
+    <value>World Boss Timer 켜기/끄기</value>
+    <comment>Hotkey label</comment>
+  </data>
+  <data name="DayNight" xml:space="preserve">
+    <value>Day-Night</value>
+  </data>
+  <data name="DayNightTimer" xml:space="preserve">
+    <value>Day-Night Timer</value>
+  </data>
+  <data name="ToggleDayNightTimer" xml:space="preserve">
+    <value>Day-Night Timer 켜기/끄기</value>
+  </data>
+  <data name="ShowTimerValue" xml:space="preserve">
+    <value>Show Timer Value</value>
+  </data>
+  <data name="TimeUntilDay" xml:space="preserve">
+    <value>낮까지 남은 시간</value>
+  </data>
+  <data name="TimeUntilNight" xml:space="preserve">
+    <value>밤까지 남은 시간</value>
+  </data>
+  <data name="ShowTextChat" xml:space="preserve">
+    <value>Show Text Chat</value>
+  </data>
+  <data name="ShowVoiceChat" xml:space="preserve">
+    <value>Show Voice Chat</value>
+  </data>
+  <data name="Notes" xml:space="preserve">
+    <value>메모</value>
+  </data>
+  <data name="ShowEndOfEvents" xml:space="preserve">
+    <value>"Event Ends(이벤트 종료)" 알림 보기 (재시작 필요)</value>
+  </data>
+  <data name="SpawnPoints" xml:space="preserve">
+    <value>리스폰 지점</value>
+  </data>
+  <data name="MercenaryObjects" xml:space="preserve">
+    <value>Mercenary Objectives</value>
+  </data>
+</root>
