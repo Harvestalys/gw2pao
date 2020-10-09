@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GW2PAO.API.Constants
 {
     /// <summary>
-    /// Static GUIDs corresponding to the world-boss dynamic events
+    /// Static GUIDs corresponding to the world-boss dynamic events (from GW2 API)
     /// </summary>
     public static class WorldBossID
     {
@@ -24,5 +20,6 @@ namespace GW2PAO.API.Constants
         public static readonly Guid ShadowBehemoth = new Guid("31CEBA08-E44D-472F-81B0-7143D73797F5");
         public static readonly Guid FireElemental = new Guid("33F76E9E-0BB6-46D0-A3A9-BE4CDFC4A3A4");
         public static readonly Guid FrozenMaw = new Guid("F7D9D427-5E54-4F12-977A-9809B23FBA99");
+        public static readonly Guid Drakkar = new Guid("19C99758-433E-4C71-8BCF-9265C233CF2D");
     }
 }

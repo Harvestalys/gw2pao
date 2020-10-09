@@ -125,7 +125,8 @@ namespace GW2PAO.API.Providers
                 new EventName() { ID = WorldBossID.JungleWurm, Name = "Jungle Wurm" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Shadow Behemoth" },
                 new EventName() { ID = WorldBossID.FireElemental, Name = "Fire Elemental" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Frozen Maw" }
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Frozen Maw" },
+                new EventName() { ID = WorldBossID.Drakkar, Name = "Drakkar" }
             };
 
             // Spanish
@@ -143,7 +144,8 @@ namespace GW2PAO.API.Providers
                 new EventName() { ID = WorldBossID.JungleWurm, Name = "Gran Sierpe de la Selva" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Behemot de las Sombras" },
                 new EventName() { ID = WorldBossID.FireElemental, Name = "Elemental de Fuego" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Jefe Chamán Svanir" }
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Jefe Chamán Svanir" },
+                new EventName() { ID = WorldBossID.Drakkar, Name = "Drakkar" }
             };
 
             // French
@@ -161,7 +163,8 @@ namespace GW2PAO.API.Providers
                 new EventName() { ID = WorldBossID.JungleWurm, Name = "La Grande Guivre de la Jungle" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Béhémoth des Ombres" },
                 new EventName() { ID = WorldBossID.FireElemental, Name = "L'élémentaire de Feu" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Chef Chamane de Svanir" }
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Chef Chamane de Svanir" },
+                new EventName() { ID = WorldBossID.Drakkar, Name = "Drakkar" }
             };
 
             // German
@@ -179,7 +182,8 @@ namespace GW2PAO.API.Providers
                 new EventName() { ID = WorldBossID.JungleWurm, Name = "Dschungelwurm" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Schatten-Behemoth" },
                 new EventName() { ID = WorldBossID.FireElemental, Name = "Feuer-Elementar" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Svanir-Schamane" }
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Svanir-Schamane" },
+                new EventName() { ID = WorldBossID.Drakkar, Name = "Drakkar" }
             };
 
             // Korean
@@ -197,7 +201,8 @@ namespace GW2PAO.API.Providers
                 new EventName() { ID = WorldBossID.JungleWurm, Name = "Jungle Wurm" },
                 new EventName() { ID = WorldBossID.ShadowBehemoth, Name = "Shadow Behemoth" },
                 new EventName() { ID = WorldBossID.FireElemental, Name = "Fire Elemental" },
-                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Frozen Maw" }
+                new EventName() { ID = WorldBossID.FrozenMaw, Name = "Frozen Maw" },
+                new EventName() { ID = WorldBossID.Drakkar, Name = "Drakkar" }
             };
 
             Serialization.SerializeToXml(english, this.GetFilePath("en"));

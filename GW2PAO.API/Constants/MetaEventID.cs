@@ -73,7 +73,6 @@ namespace GW2PAO.API.Constants
         public static readonly Guid GrothmarValley_Effigy = new Guid("E5CD64C1-BD62-410D-8E32-AC04F3C5AE02");
         public static readonly Guid GrothmarValley_Shrine = new Guid("2E1EC369-95C2-41FF-9B4B-2D4EF2A46401");
         public static readonly Guid GrothmarValley_OozePits = new Guid("FBA0845E-E198-4203-91A5-33041BBED6AA");
-        public static readonly Guid BjoraMarches_Drakkar = new Guid("96C3256A-BF82-454B-A4DF-0D561666AD51");
         public static readonly Guid BjoraMarches_RavenShrines = new Guid("7153D4BC-C8DB-4257-987D-E5B28955964E");
         public static readonly Guid BjoraMarches_Construct = new Guid("05A4FD72-A8D1-4A76-8140-396B24BAA387");
         public static readonly Guid BjoraMarches_Champions = new Guid("858AA7C5-AB89-4054-9775-EBB05D1613F5");

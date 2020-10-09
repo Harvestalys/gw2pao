@@ -142,7 +142,6 @@ namespace GW2PAO.API.Providers
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Effigy,      Name = "Effigy" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Shrine,      Name = "Doomlore Shrine" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_OozePits,    Name = "Ooze Pits" },
-                new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Drakkar,       Name = "Drakkar and Spirits of the Wild" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_RavenShrines,  Name = "Raven Shrines" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Construct,     Name = "Shards and Construct" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Champions,     Name = "Icebrood Champions" }
@@ -182,7 +181,6 @@ namespace GW2PAO.API.Providers
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Effigy,      Name = "Efigie" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Shrine,      Name = "Santuario Maldito" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_OozePits,    Name = "Fosa de Légamos" },
-                new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Drakkar,       Name = "Derrota a Drakkar" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_RavenShrines,  Name = "Santuario Cuervo" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Construct,     Name = "Ensamblaje" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Champions,     Name = "Campeones" }
@@ -222,7 +220,6 @@ namespace GW2PAO.API.Providers
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Effigy,      Name = "Cérémonie de la flamme sacrée" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Shrine,      Name = "Sanctuaire de la légende funeste" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_OozePits,    Name = "Fosse à limons" },
-                new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Drakkar,       Name = "Drakkar" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_RavenShrines,  Name = "Tempêtes hivernales" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Construct,     Name = "La sentinelle couvegivre" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Champions,     Name = "Champions" }
@@ -262,7 +259,6 @@ namespace GW2PAO.API.Providers
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Effigy,      Name = "Flammenabbild" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Shrine,      Name = "Schrein" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_OozePits,    Name = "Schleimgrube" },
-                new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Drakkar,       Name = "Drakkar und die Geister der Wildnis" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_RavenShrines,  Name = "Rabenschreine" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Construct,     Name = "Scherben und Konstrukt" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Champions,     Name = "Eisbrut Champions" }
@@ -302,7 +298,6 @@ namespace GW2PAO.API.Providers
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Effigy,      Name = "Effigy" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_Shrine,      Name = "Doomlore Shrine" },
                 new MetaEventStageName() { ID = MetaEventStageID.GrothmarValley_OozePits,    Name = "Ooze Pits" },
-                new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Drakkar,       Name = "Drakkar and Spirits of the Wild" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_RavenShrines,  Name = "Raven Shrines" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Construct,     Name = "Shards and Construct" },
                 new MetaEventStageName() { ID = MetaEventStageID.BjoraMarches_Champions,     Name = "Icebrood Champions" }

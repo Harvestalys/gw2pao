@@ -196,6 +196,15 @@ namespace GW2PAO.API.Data
                     CompletionLocations = new List<Point>() { new Point(390.7, 345.2, 71.9) },
                     CompletionRadius = 50
                 };
+            var drakkar = new WorldBossEvent()
+            {
+                Name = "Drakkar",
+                ID = WorldBossID.Drakkar,
+                MapID = 1343,
+                WaypointCode = "[&BDkMAAA=]",
+                CompletionLocations = new List<Point>() { new Point(-1001.5, -307.6, 56) },
+                CompletionRadius = 100
+            };
 
             if (adjustedTimes)
             {
@@ -250,6 +259,10 @@ namespace GW2PAO.API.Data
                 frozenMaw.ActiveTimes = new List<SerializableTimespan>() { new SerializableTimespan(0, 17, 0), new SerializableTimespan(2, 17, 0), new SerializableTimespan(4, 17, 0), new SerializableTimespan(6, 17, 0), new SerializableTimespan(8, 17, 0), new SerializableTimespan(10, 17, 0), new SerializableTimespan(12, 17, 0), new SerializableTimespan(14, 17, 0), new SerializableTimespan(16, 17, 0), new SerializableTimespan(18, 17, 0), new SerializableTimespan(20, 17, 0), new SerializableTimespan(22, 17, 0) };
                 frozenMaw.Duration = new SerializableTimespan(0, 3, 30);
                 frozenMaw.WarmupDuration = new SerializableTimespan(0, 2, 0);
+
+                drakkar.ActiveTimes = new List<SerializableTimespan>() { new SerializableTimespan(1, 5, 0), new SerializableTimespan(3, 5, 0), new SerializableTimespan(5, 5, 0), new SerializableTimespan(7, 5, 0), new SerializableTimespan(9, 5, 0), new SerializableTimespan(11, 5, 0), new SerializableTimespan(13, 5, 0), new SerializableTimespan(15, 5, 0), new SerializableTimespan(17, 5, 0), new SerializableTimespan(19, 5, 0), new SerializableTimespan(21, 5, 0), new SerializableTimespan(23, 5, 0) };
+                drakkar.Duration = new SerializableTimespan(0, 35, 0);
+                drakkar.WarmupDuration = new SerializableTimespan(0, 0, 0);
 
                 filename = AdjustedFilename;
             }
@@ -307,6 +320,10 @@ namespace GW2PAO.API.Data
                 frozenMaw.Duration = new SerializableTimespan(0, 5, 0);
                 frozenMaw.WarmupDuration = new SerializableTimespan(0, 0, 0);
 
+                drakkar.ActiveTimes = new List<SerializableTimespan>() { new SerializableTimespan(1, 5, 0), new SerializableTimespan(3, 5, 0), new SerializableTimespan(5, 5, 0), new SerializableTimespan(7, 5, 0), new SerializableTimespan(9, 5, 0), new SerializableTimespan(11, 5, 0), new SerializableTimespan(13, 5, 0), new SerializableTimespan(15, 5, 0), new SerializableTimespan(17, 5, 0), new SerializableTimespan(19, 5, 0), new SerializableTimespan(21, 5, 0), new SerializableTimespan(23, 5, 0) };
+                drakkar.Duration = new SerializableTimespan(0, 35, 0);
+                drakkar.WarmupDuration = new SerializableTimespan(0, 0, 0);
+
                 filename = StandardFilename;
             }
 
@@ -323,6 +340,7 @@ namespace GW2PAO.API.Data
             tt.WorldEvents.Add(shadowBehemoth);
             tt.WorldEvents.Add(fireElemental);
             tt.WorldEvents.Add(frozenMaw);
+            tt.WorldEvents.Add(drakkar);
 
             XmlSerializer serializer = new XmlSerializer(typeof(WorldBossEventTimeTable));
             TextWriter textWriter = new StreamWriter(filename);
