@@ -1006,6 +1006,7 @@
   </data>
   <data name="In" xml:space="preserve">
     <value>in</value>
+    <comment>e.g. "in" x minutes</comment>
   </data>
   <data name="CenterOnChar" xml:space="preserve">
     <value>Center on Character</value>

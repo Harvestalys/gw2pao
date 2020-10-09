@@ -483,7 +483,8 @@
     <value>Importieren...</value>
   </data>
   <data name="In" xml:space="preserve">
-    <value>im</value>
+    <value>in</value>
+    <comment>e.g. "in" x minutes</comment>
   </data>
   <data name="IncludeLocation" xml:space="preserve">
     <value>Standort hinzufügen</value>
@@ -553,7 +554,7 @@
     <value>Karten</value>
   </data>
   <data name="MetaEventTimers" xml:space="preserve">
-    <value>Meta Ereigniszeitgeber</value>
+    <value>Meta Event Timer</value>
   </data>
   <data name="Meters" xml:space="preserve">
     <value>Meter</value>
@@ -609,14 +610,14 @@
     <value>Öffne Handbuch</value>
   </data>
   <data name="OpenMetaEventTimers" xml:space="preserve">
-    <value>Offene Meta Ereigniszeitgeber</value>
+    <value>Öffne Meta Event Timer</value>
   </data>
   <data name="OpenWikiPage" xml:space="preserve">
     <value>Öffne Wiki-Seite</value>
     <comment>Opens the web browser to the GW2 Wiki</comment>
   </data>
   <data name="OpenWorldBossTimers" xml:space="preserve">
-    <value>Open World Boss Timer</value>
+    <value>Öffne Welt-Boss Timer</value>
   </data>
   <data name="OpenWvWTracker" xml:space="preserve">
     <value>WvW-Fortschritt verfolgen</value>
@@ -874,7 +875,7 @@
     <comment>Taken from X, such as "From: Jade Quarry"</comment>
   </data>
   <data name="TaskTracker" xml:space="preserve">
-    <value>Aufgaben-Verfolgung</value>
+    <value>Aufgaben Liste</value>
   </data>
   <data name="Teamspeak" xml:space="preserve">
     <value>Teamspeak</value>
@@ -947,7 +948,7 @@
     <comment>Hotkey label</comment>
   </data>
   <data name="ToggleTasksTracker" xml:space="preserve">
-    <value>Aufgaben-Verfolgung ein/ausschalten</value>
+    <value>Aufgaben Liste ein/ausschalten</value>
   </data>
   <data name="ToggleTeamspeakOverlay" xml:space="preserve">
     <value>Teamspeak-Overlay umschalten</value>
