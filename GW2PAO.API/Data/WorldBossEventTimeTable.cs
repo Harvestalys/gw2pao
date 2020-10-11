@@ -197,14 +197,14 @@ namespace GW2PAO.API.Data
                     CompletionRadius = 50
                 };
             var drakkar = new WorldBossEvent()
-            {
-                Name = "Drakkar",
-                ID = WorldBossID.Drakkar,
-                MapID = 1343,
-                WaypointCode = "[&BDkMAAA=]",
-                CompletionLocations = new List<Point>() { new Point(-1001.5, -307.6, 56) },
-                CompletionRadius = 100
-            };
+                {
+                    Name = "Drakkar",
+                    ID = WorldBossID.Drakkar,
+                    MapID = 1343,
+                    WaypointCode = "[&BDkMAAA=]",
+                    CompletionLocations = new List<Point>() { new Point(-996, -329, 55.96) },
+                    CompletionRadius = 50
+                };
 
             if (adjustedTimes)
             {
